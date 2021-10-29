@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="E:\Semester 5\Pemrograman Frontend\Program\UTS\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="E:\Semester 5\Pemrograman Frontend\Program\UTS\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>
