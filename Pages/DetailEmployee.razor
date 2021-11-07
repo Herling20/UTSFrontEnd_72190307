@@ -1,11 +1,18 @@
 @page "/employeedetail/{id}"
 
-<h3>Detail Employee</h3>
-<p>Employee ID : @Employee.EmployeeId</p>
-<p>Nama Depan : @Employee.FirstName</p>
-<p>Nama Belakang : @Employee.LastName</p>
-<p>Email : @Employee.Email</p>
-<p>Tanggal Lahir : @Employee.DateOfBirth</p>
-<p>Gender : @Employee.Gender</p>
-<p>Department ID : @Employee.DepartmentId</p>
-<p>Foto Karyawan : @Employee.PhotoPath</p>
+@if (Employee == null || Employee.Department == null)
+{
+    <div class="spinner"></div>
+}else
+{
+    <h3>Detail Employee</h3>
+    <p>Employee ID : @Employee.EmployeeId</p>
+    <p>Nama Depan : @Employee.FirstName</p>
+    <p>Nama Belakang : @Employee.LastName</p>
+    <p>Email : @Employee.Email</p>
+    <p>Tanggal Lahir : @Employee.DateOfBirth</p>
+    <p>Gender : @Employee.Gender</p>
+    <p>Department ID : @Employee.DepartmentId</p>
+    <p>Department Name : @Employee.Department.DepartmentName</p>
+    <p>Foto Karyawan : @Employee.PhotoPath</p>
+}

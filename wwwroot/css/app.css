@@ -1,5 +1,32 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+.spinner {
+    border: 16px solid red;
+    border-top: 16px solid #337ab7;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 700ms linear infinite;
+    top: 40%;
+    left: 55%;
+    position: absolute; 
+}
+
+/* @keyframe spin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform : rotate(369deg);
+    }
+} */
+
+.imageThumbnail{
+    height: 200px;
+    width: auto;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

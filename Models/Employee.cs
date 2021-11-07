@@ -15,12 +15,18 @@ namespace UTS.Models
 
         public string Email { get; set; }
 
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
-        public int Gender { get; set; }
+        public Gender Gender { get; set; }
 
         public int DepartmentId { get; set; }
+        
+        public Department Department { get; set; }
 
         public string PhotoPath { get; set; }
+    }
+
+    public enum Gender {
+        Male, Female
     }
 }

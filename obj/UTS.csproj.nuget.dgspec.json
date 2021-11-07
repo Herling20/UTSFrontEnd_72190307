@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {}
+    "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {}
   },
   "projects": {
-    "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {
+    "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
+        "projectUniqueName": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
         "projectName": "UTS",
-        "projectPath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
+        "projectPath": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
         "packagesPath": "C:\\Users\\herli\\.nuget\\packages\\",
-        "outputPath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\obj\\",
+        "outputPath": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herli\\AppData\\Roaming\\NuGet\\NuGet.Config",

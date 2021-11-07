@@ -20,10 +20,8 @@ namespace UTS.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            id = id ?? "1";
+             id = id ?? "1";
             Employee = await EmployeeService.GetById(int.Parse(id));
         }
-
-
     }
 }
