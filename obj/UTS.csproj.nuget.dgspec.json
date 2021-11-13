@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {}
+    "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {}
   },
   "projects": {
-    "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {
+    "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
+        "projectUniqueName": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
         "projectName": "UTS",
-        "projectPath": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
+        "projectPath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\UTS.csproj",
         "packagesPath": "C:\\Users\\herli\\.nuget\\packages\\",
-        "outputPath": "E:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\obj\\",
+        "outputPath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\herli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\herli\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

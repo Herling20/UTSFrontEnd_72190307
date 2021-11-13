@@ -10,12 +10,23 @@ namespace UTS.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        private HttpClient _httpClient;
+        HttpClient _httpClient;
 
         public EmployeeService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
+
+        public Task<Employee> Add(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Employee> Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Employee>> GetAll()
         {
             var result = await _httpClient.GetFromJsonAsync<IEnumerable<Employee>>("api/Employees");
@@ -26,6 +37,11 @@ namespace UTS.Services
         {
             var results = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
             return results;
+        }
+
+        public Task<Employee> Update(int id, Employee employee)
+        {
+            throw new NotImplementedException();
         }
     }
 }

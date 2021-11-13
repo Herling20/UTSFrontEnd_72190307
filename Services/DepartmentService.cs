@@ -10,7 +10,7 @@ namespace UTS.Services
 {
     public class DepartmentService : IDepartmentService
     {
-        private HttpClient _httpClient;
+        HttpClient _httpClient;
 
         public DepartmentService(HttpClient httpClient)
         {

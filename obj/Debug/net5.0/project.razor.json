@@ -180,35 +180,35 @@
         }
       },
       {
-        "HashCode": -2065801580,
+        "HashCode": -750717211,
         "Kind": "Components.Component",
-        "Name": "UTS.Pages.Index",
+        "Name": "UTS.Pages.Counter",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.Index"
+          "Common.TypeName": "UTS.Pages.Counter"
         }
       },
       {
-        "HashCode": 1606549663,
+        "HashCode": 293341817,
         "Kind": "Components.Component",
-        "Name": "UTS.Pages.Index",
+        "Name": "UTS.Pages.Counter",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "UTS.Pages.Index"
+            "TagName": "UTS.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.Index",
+          "Common.TypeName": "UTS.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -246,35 +246,68 @@
         }
       },
       {
-        "HashCode": -750717211,
+        "HashCode": -2065801580,
         "Kind": "Components.Component",
-        "Name": "UTS.Pages.Counter",
+        "Name": "UTS.Pages.Index",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.Counter"
+          "Common.TypeName": "UTS.Pages.Index"
         }
       },
       {
-        "HashCode": 293341817,
+        "HashCode": 1606549663,
         "Kind": "Components.Component",
-        "Name": "UTS.Pages.Counter",
+        "Name": "UTS.Pages.Index",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "UTS.Pages.Counter"
+            "TagName": "UTS.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.Counter",
+          "Common.TypeName": "UTS.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1844363350,
+        "Kind": "Components.Component",
+        "Name": "UTS.App",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.App"
+        }
+      },
+      {
+        "HashCode": 977427031,
+        "Kind": "Components.Component",
+        "Name": "UTS.App",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -328,39 +361,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "UTS.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 810578636,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.NavMenu",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -2073392922,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.NavMenu",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UTS.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -461,35 +461,35 @@
         }
       },
       {
-        "HashCode": 1844363350,
+        "HashCode": 810578636,
         "Kind": "Components.Component",
-        "Name": "UTS.App",
+        "Name": "UTS.Shared.NavMenu",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.App"
+          "Common.TypeName": "UTS.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 977427031,
+        "HashCode": -2073392922,
         "Kind": "Components.Component",
-        "Name": "UTS.App",
+        "Name": "UTS.Shared.NavMenu",
         "AssemblyName": "UTS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "UTS.App"
+            "TagName": "UTS.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.App",
+          "Common.TypeName": "UTS.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

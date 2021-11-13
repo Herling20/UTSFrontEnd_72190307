@@ -12,7 +12,7 @@
     position: absolute; 
 }
 
-/* @keyframe spin {
+@keyframe spin {
     0%{
         transform: rotate(0deg);
     }
@@ -20,7 +20,11 @@
     100%{
         transform : rotate(369deg);
     }
-} */
+}
+
+.HideFooter{
+    display: none;
+}
 
 .imageThumbnail{
     height: 200px;
