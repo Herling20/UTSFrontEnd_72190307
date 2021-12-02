@@ -90,7 +90,7 @@ using UTS.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "E:\Semester 5\Pemrograman Frontend\Program\UTS\Shared\NavMenu.razor"
+#line 33 "E:\Semester 5\Pemrograman Frontend\Program\UTS\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

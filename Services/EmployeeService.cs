@@ -18,11 +18,6 @@ namespace UTS.Services
             _httpClient = httpClient;
         }
 
-        public Task<Employee> Add(Employee employee)
-        {
-            throw new NotImplementedException();
-        }
-
         public Task<Employee> Delete(int id)
         {
             throw new NotImplementedException();
@@ -49,6 +44,16 @@ namespace UTS.Services
             else
             {
                 throw new Exception("Gagal Update Employee");
+            }
+        }
+
+        public async Task<Employee> Add(Employee obj){
+            var response = await _httpClient.PostAsJsonAsync($"api/Employees", obj);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }
+            else{
+                throw new Exception("Gagal tambah data employee");
             }
         }
     }

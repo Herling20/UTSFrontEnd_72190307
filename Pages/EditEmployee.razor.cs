@@ -33,6 +33,7 @@ namespace UTS.Pages
         }
 
         protected async Task HandleValidSubmit(){
+            Employee.PhotoPath = "/images/nophoto.jpg";
             Employee result = await EmployeeService.Update(int.Parse(Id),Employee);
             NavigationManager.NavigateTo("employeepage");
         }

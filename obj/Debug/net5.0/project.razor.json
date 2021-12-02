@@ -266,39 +266,6 @@
         }
       },
       {
-        "HashCode": -1720466208,
-        "Kind": "Components.Component",
-        "Name": "UTS.Pages.FetchData",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 387893193,
-        "Kind": "Components.Component",
-        "Name": "UTS.Pages.FetchData",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UTS.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2065801580,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.Index",
@@ -332,6 +299,72 @@
         }
       },
       {
+        "HashCode": -1720466208,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.FetchData",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 387893193,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.FetchData",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 612307619,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": 1026561700,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1844363350,
         "Kind": "Components.Component",
         "Name": "UTS.App",
@@ -361,59 +394,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "UTS.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -225755866,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.SurveyPrompt",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -212642638,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.SurveyPrompt",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UTS.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -510,6 +490,59 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "UTS.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -225755866,
+        "Kind": "Components.Component",
+        "Name": "UTS.Shared.SurveyPrompt",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -212642638,
+        "Kind": "Components.Component",
+        "Name": "UTS.Shared.SurveyPrompt",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13271,6 +13304,11 @@
     {
       "FilePath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\Semester 5\\Pemrograman Frontend\\Program\\UTS\\Pages\\AddEmployee.razor",
+      "TargetPath": "Pages\\AddEmployee.razor",
       "FileKind": "component"
     },
     {
